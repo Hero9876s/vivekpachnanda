@@ -1,0 +1,572 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Vivek Pachnanda - Portfolio">
+    <title>Vivek Pachnanda | Portfolio</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=Montserrat:wght@400;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#home" class="logo">Vivek<span>.</span></a>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#learning">Learning Journey</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#certifications">Certificates</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li>
+                    <button id="theme-toggle" aria-label="Toggle Dark/Light Mode">
+                        <i class="fa-solid fa-moon"></i>
+                    </button>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero" id="home">
+        <div class="hero-content">
+            <div class="hero-text">
+                <div class="availability-badge">
+                    <i class="fa-solid fa-circle"></i> Open to Opportunities
+                </div>
+                <p class="greeting">Hi there, I'm</p>
+                <h1 class="name">Vivek Pachnanda</h1>
+                <h2 class="role">Software Developer & Cloud Enthusiast</h2>
+                <p class="description">
+                    I build interactive, modern web applications and have a strong passion for solving problems through
+                    robust architectures. Ready to transform ideas into scalable, cloud-deployed solutions.
+                </p>
+                <div class="hero-buttons">
+                    <!-- Link to CV docx download -->
+                    <a href="Vivek cvv1 (1) (1).docx" download="Vivek_Pachnanda_CV.docx"
+                        class="btn btn-primary">Download Resume</a>
+                    <a href="#projects" class="btn btn-secondary">View Projects</a>
+                    <a href="#contact" class="btn btn-outline">Contact Me</a>
+                </div>
+                <div class="social-links">
+                    <a href="https://github.com/Hero9876s" target="_blank" aria-label="GitHub"><i
+                            class="fa-brands fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/vivek-pachnanda-5501a0298" target="_blank"
+                        aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+                    <a href="mailto:pachnandavivek21@gmail.com" aria-label="Email"><i
+                            class="fa-solid fa-envelope"></i></a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <!-- Using the profile image provided in the screenshots based on prompt's knowledge of young man in suit -->
+                <img src="vivekimg.jpeg" alt="Vivek Pachnanda" id="profile-img"
+                    onerror="this.src='https://ui-avatars.com/api/?name=Vivek+Pachnanda&size=400&background=6366f1&color=fff'">
+            </div>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section class="section about" id="about">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">About Me</h2>
+                <div class="line"></div>
+            </div>
+            <div class="about-content">
+                <p class="about-text">
+                    I am a highly motivated <strong>B.Tech CSE student</strong> at Lovely Professional University with a
+                    current CGPA of 7.33.
+                    With a solid foundation in programming and a passion for technology, I excel in creating responsive
+                    websites, learning modern cloud architectures, and tackling complex Data Structures and Algorithms.
+                    I strongly believe in continuous learning, problem-solving, and being an adaptable team player.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Learning Journey Section -->
+    <section class="section learning" id="learning">
+        <div class="container">
+            <div class="section-header center">
+                <h2 class="section-title">Cloud Learning Journey</h2>
+                <p class="section-subtitle">My structured path to becoming cloud-ready</p>
+                <div class="line center"></div>
+            </div>
+
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content card hover-effect">
+                        <h3>Currently Learning</h3>
+                        <ul>
+                            <li>AWS core services (EC2, S3, IAM)</li>
+                            <li>CI/CD pipelines & automation</li>
+                            <li>Terraform for Infrastructure as Code</li>
+                            <li>Docker containerization</li>
+                            <li>Linux & shell scripting</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content card hover-effect">
+                        <h3>Hands-on Deployments</h3>
+                        <ul>
+                            <li>DevOps CI/CD mini pipeline</li>
+                            <li>S3 static website hosting</li>
+                            <li>EC2 Apache web server setup</li>
+                            <li>Terraform AWS infrastructure</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content card hover-effect">
+                        <h3>Goal</h3>
+                        <p class="quote">"My goal is to transform my projects into scalable, cloud-deployed applications
+                            and build a strong foundation for a career in cloud engineering."</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="section skills" id="skills">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Skills & Technologies</h2>
+                <div class="line"></div>
+            </div>
+
+            <div class="skills-section-container">
+                <div class="skill-group fade-in">
+                    <h3 class="skill-group-title">Programming Languages</h3>
+                    <div class="skills-row">
+                        <span class="tag"><i class="fa-brands fa-cuttlefish"></i> C++</span>
+                        <span class="tag"><i class="fa-brands fa-python"></i> Python</span>
+                        <span class="tag"><i class="fa-brands fa-java"></i> Java</span>
+                        <span class="tag"><i class="fa-brands fa-html5"></i> HTML5</span>
+                        <span class="tag"><i class="fa-brands fa-css3-alt"></i> CSS3</span>
+                        <span class="tag"><i class="fa-brands fa-js"></i> JavaScript</span>
+                        <span class="tag"><i class="fa-brands fa-linux"></i> Bash</span>
+                        <span class="tag"><i class="fa-solid fa-database"></i> SQL</span>
+                    </div>
+                </div>
+
+                <div class="skill-group fade-in">
+                    <h3 class="skill-group-title">Frameworks & Libraries</h3>
+                    <div class="skills-row">
+                        <span class="tag"><i class="fa-brands fa-react"></i> React JS</span>
+                        <span class="tag"><i class="fa-brands fa-node-js"></i> Node JS</span>
+                        <span class="tag"><i class="fa-solid fa-cube"></i> Next JS</span>
+                        <span class="tag"><i class="fa-solid fa-flask"></i> Flask</span>
+                    </div>
+                </div>
+
+                <div class="skill-group fade-in">
+                    <h3 class="skill-group-title">Tools & Platforms</h3>
+                    <div class="skills-row">
+                        <span class="tag"><i class="fa-brands fa-docker"></i> Docker</span>
+                        <span class="tag"><i class="fa-brands fa-docker"></i> Docker Hub</span>
+                        <span class="tag"><i class="fa-brands fa-git-alt"></i> Git</span>
+                        <span class="tag"><i class="fa-brands fa-github"></i> GitHub</span>
+                        <span class="tag"><i class="fa-solid fa-database"></i> MySQL</span>
+                        <span class="tag"><i class="fa-brands fa-jenkins"></i> Jenkins</span>
+                        <span class="tag"><i class="fa-solid fa-cloud"></i> Terraform</span>
+                        <span class="tag"><i class="fa-brands fa-envira"></i> MongoDB Atlas</span>
+                    </div>
+                </div>
+
+                <div class="skill-group fade-in">
+                    <h3 class="skill-group-title">Soft Skills</h3>
+                    <div class="skills-row">
+                        <span class="tag"><i class="fa-solid fa-brain"></i> Problem-Solving</span>
+                        <span class="tag"><i class="fa-solid fa-users"></i> Team Player</span>
+                        <span class="tag"><i class="fa-solid fa-comments"></i> Communication</span>
+                        <span class="tag"><i class="fa-solid fa-arrows-spin"></i> Adaptability</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="section projects" id="projects">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Projects</h2>
+                <div class="line"></div>
+            </div>
+
+            <div class="projects-grid">
+                <!-- Project 1 -->
+                <div class="project-card card hover-effect">
+                    <div class="project-img">
+                        <img src="Screenshot 2026-03-22 024126.png" alt="ACWA Project Preview"
+                            onerror="this.src='https://via.placeholder.com/600x400/1e1e2f/6366f1?text=ACWA+Chatbot'">
+                    </div>
+                    <div class="project-info">
+                        <h3>AI Comedy Writing Assistant Chatbot(ACWA)</h3>
+                        <p class="project-desc">Intelligent chatbot delivering multilingual jokes using translation
+                            APIs, Gemini, Libre Translate, and Hugging Face Transformers. Integrating external joke APIs
+                            (icanhazdadjoke, Joke API).</p>
+                        <div class="project-tech">
+                            <span class="tag-outline">Python</span>
+                            <span class="tag-outline">Flask</span>
+                            <span class="tag-outline">HTML/CSS</span>
+                            <span class="tag-outline">JavaScript</span>
+                        </div>
+                        <p class="date" style="margin-top: 1rem; margin-bottom: 0;">Completed: Feb' 25</p>
+                        <div class="project-links" style="display: flex; gap: 0.5rem; margin-top: 1rem;">
+                            <a href="https://hero9876s.github.io/ACWA-AI-Comedy-Writing-Assistant-/"
+                                class="btn btn-sm btn-primary" target="_blank">Live Preview <i
+                                    class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                            <a href="https://github.com/Hero9876s/ACWA-AI-Comedy-Writing-Assistant-.git"
+                                class="btn btn-sm btn-outline" target="_blank">GitHub <i
+                                    class="fa-brands fa-github"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="project-card card hover-effect">
+                    <div class="project-img">
+                        <img src="Screenshot 2026-03-22 023810.png" alt="CA Firm Website Preview"
+                            onerror="this.src='https://via.placeholder.com/600x400/1e1e2f/10b981?text=CA+Firm+Website'">
+                    </div>
+                    <div class="project-info">
+                        <h3>Chartered Accountancy Firm Website</h3>
+                        <p class="project-desc">Professional website with integrated contact form, server-side
+                            validation via Next.js APIs, Google Maps, and secure form handling to prevent malicious
+                            inputs.</p>
+                        <div class="project-tech">
+                            <span class="tag-outline">Next.js</span>
+                            <span class="tag-outline">React</span>
+                            <span class="tag-outline">TypeScript</span>
+                            <span class="tag-outline">REST API</span>
+                        </div>
+                        <p class="date" style="margin-top: 1rem; margin-bottom: 0;">Completed: Jan' 26</p>
+                        <div class="project-links" style="display: flex; gap: 0.5rem; margin-top: 1rem;">
+                            <a href="https://pachnanda-and-associates-2pkr.vercel.app/" class="btn btn-sm btn-primary"
+                                target="_blank">Live Preview <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                            <a href="https://github.com/Hero9876s/pachnanda-and-associates.git"
+                                class="btn btn-sm btn-outline" target="_blank">GitHub <i
+                                    class="fa-brands fa-github"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section class="section experience" id="experience">
+        <div class="container">
+            <div class="section-header center">
+                <h2 class="section-title">Experience & Training</h2>
+                <div class="line center"></div>
+            </div>
+
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content card">
+                        <h3>Freelancer</h3>
+                        <span class="date">Jun' 25 - Present</span>
+                        <p>Developed multiple on-campus (LPU) web projects, including e-commerce clones of Amazon and
+                            Flipkart, providing them to students for academic purposes.</p>
+                        <div class="project-tech mt-2">
+                            <span class="tag-outline">HTML</span>
+                            <span class="tag-outline">CSS</span>
+                            <span class="tag-outline">JavaScript</span>
+                            <span class="tag-outline">MongoDB Atlas</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content card">
+                        <h3>DSA and Algorithms using CPP</h3>
+                        <span class="location">Lovely Professional University</span>
+                        <span class="date">May' 25 - Jun' 25</span>
+                        <p>Implemented core data structures including Arrays, Linked Lists, Stacks, Queues, Trees, and
+                            Tries. Solved problems based on Sorting, Searching, and Recursion. Developed a Sudoku solver
+                            CLI project.</p>
+                        <div class="project-tech mt-2">
+                            <span class="tag-outline">C++</span>
+                            <span class="tag-outline">DSA</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section class="section certifications" id="certifications">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Certifications</h2>
+                <div class="line"></div>
+                <p class="section-subtitle">Click on a certificate to view details</p>
+            </div>
+
+            <div class="cert-grid">
+                <!-- Cert 1 -->
+                <div class="cert-card card glass hover-effect" onclick="openModal('cert-aws')">
+                    <img src="Screenshot 2026-03-15 160627.png" alt="AWS Certificate" class="cert-thumbnail">
+                    <i class="fa-brands fa-aws cert-icon"></i>
+                    <h3>AWS Academy Graduate</h3>
+                    <p>Cloud Foundations</p>
+                    <span class="date">Apr' 25</span>
+                </div>
+
+                <!-- Cert 2 -->
+                <div class="cert-card card glass hover-effect" onclick="openModal('cert-oracle-ai')">
+                    <img src="Screenshot 2026-03-15 160733.png" alt="Oracle Gen AI" class="cert-thumbnail">
+                    <i class="fa-solid fa-robot cert-icon"></i>
+                    <h3>Oracle Certified</h3>
+                    <p>Generative AI Professional</p>
+                    <span class="date">Jan' 26</span>
+                </div>
+
+                <!-- Cert 3 -->
+                <div class="cert-card card glass hover-effect" onclick="openModal('cert-oracle-arch')">
+                    <img src="Screenshot 2026-03-15 160819.png" alt="Oracle Architect" class="cert-thumbnail">
+                    <i class="fa-solid fa-server cert-icon"></i>
+                    <h3>Oracle Certified</h3>
+                    <p>Architect Associate</p>
+                    <span class="date">Oct' 25</span>
+                </div>
+
+                <!-- Cert 4 -->
+                <div class="cert-card card glass hover-effect" onclick="openModal('cert-oracle-net')">
+                    <img src="Screenshot 2026-03-15 160905.png" alt="Oracle Networking" class="cert-thumbnail">
+                    <i class="fa-solid fa-network-wired cert-icon"></i>
+                    <h3>Oracle Certified</h3>
+                    <p>Networking Professional</p>
+                    <span class="date">Oct' 25</span>
+                </div>
+
+                <!-- Cert 5 -->
+                <div class="cert-card card glass hover-effect" onclick="openModal('cert-dsa')">
+                    <img src="Screenshot 2026-03-15 160942.png" alt="DSA Training" class="cert-thumbnail">
+                    <i class="fa-solid fa-code cert-icon"></i>
+                    <h3>DSA using C++</h3>
+                    <p>Training Complete</p>
+                    <span class="date">Jun' 25</span>
+                </div>
+
+                <!-- Cert 6 -->
+                <div class="cert-card card glass hover-effect" onclick="openModal('cert-runnerup')">
+                    <img src="Screenshot 2026-03-15 161106.png" alt="Runner Up" class="cert-thumbnail">
+                    <i class="fa-solid fa-trophy cert-icon"></i>
+                    <h3>Runner Up</h3>
+                    <p>Literary Championship Quiz</p>
+                    <span class="date">2025</span>
+                </div>
+
+                <!-- Cert 7 -->
+                <div class="cert-card card glass hover-effect" onclick="openModal('cert-rwd')">
+                    <img src="Screenshot 2026-03-15 161233.png" alt="Responsive Web Design" class="cert-thumbnail">
+                    <i class="fa-solid fa-mobile-screen cert-icon"></i>
+                    <h3>Responsive Web Design</h3>
+                    <p>Certification</p>
+                    <span class="date">Jan' 24</span>
+                </div>
+
+                <!-- Cert 8 -->
+                <div class="cert-card card glass hover-effect" onclick="openModal('cert-nptel')">
+                    <img src="cert-6.png" alt="NPTEL Social Networking" class="cert-thumbnail">
+                    <i class="fa-solid fa-users cert-icon"></i>
+                    <h3>Social Networking - MOOC</h3>
+                    <p>NPTEL</p>
+                    <span class="date">Apr' 25</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Competitive Programming & Hackathons Section -->
+    <section class="section achievements" id="achievements">
+        <div class="container" style="max-width: 900px;">
+            <div class="section-header">
+                <h2 class="section-title">Competitive Programming & Hackathons</h2>
+                <div class="line"></div>
+            </div>
+            
+            <div class="achievements-list">
+                <div class="achievement-item card glass hover-effect fade-in">
+                    <i class="fa-regular fa-star achievement-icon"></i>
+                    <span>5 Star in SQL and C++ on HackerRank</span>
+                </div>
+                
+                <div class="achievement-item card glass hover-effect fade-in">
+                    <i class="fa-solid fa-trophy achievement-icon"></i>
+                    <span>Runner Up &ndash; Inter School Literary Championship (Rachna-A-LitFest)</span>
+                </div>
+                
+                <div class="achievement-item card glass hover-effect fade-in">
+                    <i class="fa-solid fa-code achievement-icon"></i>
+                    <span>4th Place &ndash; Code-e-Haunt Hackathon</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section class="section education" id="education">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Education</h2>
+                <div class="line"></div>
+            </div>
+
+            <div class="education-grid">
+                <div class="edu-card card glass">
+                    <div class="edu-icon"><i class="fa-solid fa-graduation-cap"></i></div>
+                    <div class="edu-info">
+                        <h3>B.Tech. Computer Science Engineering</h3>
+                        <h4>Lovely Professional University, Phagwara</h4>
+                        <p class="date">Aug' 23 - Present</p>
+                        <p class="score">CGPA: 7.33</p>
+                    </div>
+                </div>
+
+                <div class="edu-card card glass">
+                    <div class="edu-icon"><i class="fa-solid fa-school"></i></div>
+                    <div class="edu-info">
+                        <h3>Intermediate (PCM)</h3>
+                        <h4>Delhi Public School, Jammu</h4>
+                        <p class="date">Mar' 22 - May' 23</p>
+                        <p class="score">Percentage: 81.8%</p>
+                    </div>
+                </div>
+
+                <div class="edu-card card glass">
+                    <div class="edu-icon"><i class="fa-solid fa-school-flag"></i></div>
+                    <div class="edu-info">
+                        <h3>Matriculation</h3>
+                        <h4>Delhi Public School, Jammu</h4>
+                        <p class="date">Mar' 20 - May' 21</p>
+                        <p class="score">Percentage: 84.2%</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section contact" id="contact">
+        <div class="container">
+            <div class="section-header center">
+                <h2 class="section-title">Get In Touch</h2>
+                <div class="line center"></div>
+                <p class="section-subtitle">Feel free to reach out for collaborations or just a friendly chat.</p>
+            </div>
+
+            <div class="contact-content">
+                <div class="contact-info">
+                    <a href="mailto:pachnandavivek21@gmail.com" class="contact-card card glass hover-effect">
+                        <i class="fa-solid fa-envelope"></i>
+                        <h3>Email</h3>
+                        <p>pachnandavivek21@gmail.com</p>
+                    </a>
+
+                    <a href="tel:+917889956511" class="contact-card card glass hover-effect">
+                        <i class="fa-solid fa-phone"></i>
+                        <h3>Phone</h3>
+                        <p>+91 7889956511</p>
+                    </a>
+
+                    <a href="https://www.linkedin.com/in/vivek-pachnanda-5501a0298" target="_blank"
+                        class="contact-card card glass hover-effect">
+                        <i class="fa-brands fa-linkedin"></i>
+                        <h3>LinkedIn</h3>
+                        <p>Vivek Pachnanda</p>
+                    </a>
+
+                    <a href="https://github.com/Hero9876s" target="_blank" class="contact-card card glass hover-effect">
+                        <i class="fa-brands fa-github"></i>
+                        <h3>GitHub</h3>
+                        <p>Hero9876s</p>
+                    </a>
+                </div>
+
+                <div class="contact-form-container">
+                    <!-- Replace the action URL with your actual Formspree endpoint -->
+                    <form action="https://formspree.io/f/YOUR_FORM_ID_HERE" method="POST"
+                        class="contact-form card glass">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" required placeholder="Your Full Name">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="_replyto" required placeholder="Your Email Address">
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="5" required
+                                placeholder="How can I help you?"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary" style="width: 100%;">Send Message <i
+                                class="fa-solid fa-paper-plane" style="margin-left: 0.5rem;"></i></button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 Vivek Pachnanda. Built with Passion & Cloud Transformation.</p>
+        </div>
+    </footer>
+
+    <!-- Modals for Certificates -->
+    <div id="certModal" class="modal">
+        <div class="modal-content card glass">
+            <span class="close-modal">&times;</span>
+            <div class="modal-header">
+                <i class="fa-solid fa-certificate modal-icon"></i>
+                <h2 id="modalTitle">Certificate Title</h2>
+            </div>
+            <div class="modal-body">
+                <p id="modalDesc">Description goes here.</p>
+                <p class="date" id="modalDate">Date</p>
+                <!-- Include an image of certificate if available -->
+                <img id="modalImg" src="" alt="Certificate Full Document"
+                    style="width: 100%; border-radius: 8px; margin-top: 1.5rem; display: none;">
+            </div>
+        </div>
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>

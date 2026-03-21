@@ -1,0 +1,43 @@
+Vivek Pachnanda                                          
+LinkedIn: linkedin.com/in/vivek-pachnanda-21E-mail: pachnandavivek21@gmail.com GitHub:  github.com/vivekMobile: +91 7889956511
+  Skills
+Languages:C++, Python, Java, HTML, Bash, SQL
+Framework:       JavaScript, CSS, React JS, Node JS
+Tools/Platforms:Docker, Docker Hub, Git , Git Hub, My SQL, Jenkins, Terraform , MongoDB Atlas
+Soft Skills:Problem-Solving, Team Player, Communication, Adaptability
+work experience
+Freelancer                                                                                                                                                                        Jun’ 25-Present
+Developed multiple on-campus (LPU) web projects, including e-commerce clones of Amazon and Flipkart, and provided them to students for students for academic purposes. These projects were built using HTML, CSS, JavaScript, and MongoDB Atlas.
+Designed a comprehensive networking project for university management using Cisco Packet Tracer.  Project 
+Projects
+AI Comedy Writing Assistant Chatbot(ACWA) |   Project | Live                                                                                        Feb’ 25
+ACWA is an intelligent chatbot designed to deliver jokes on a wide range of topics and in multiple languages. It is integrated with a translation API, enabling it to seamlessly translate content into the user’s preferred language—such as converting English to Spanish and many more.
+This Chatbot is equipped with several comedy script like Gemini, Libre Translate for multilingual support, Hugging Face Transformers (Open Assistant/Pythia), External joke APIs (icanhazdadjoke, Joke API, Chuck Norris)
+Tech: Python 3.7+ with flask framework, HTML, CSS(custom + Bootstrap-like styling), JavaScript
+ Chartered Accountancy Firm Website  | Project | Live                                                                                                    Jan’26
+Designed and developed a professional website for a chartered accountant firm in which user can ask queries and know about the assistance given by the firm and also contact them by means of WhatsApp ,E-mail and Phone.
+ Build a responsive contact form with server-side validation using Next JS API route and implement secure form handling with input validation to prevent malicious input and integrated Google Maps and structured service pages for better user navigation and optimized layout ,typography and responsiveness for desktop and mobile devices.
+Tech: Next.JS , React, TypeScript, CSS , Rest API , Google Maps Embedded.
+Training
+DSA and Algorithms using CPP- Lovely Professional University  | Certificate                                May’ 25 – Jun’ 25
+Learned about Basics to Advance DSA concepts like Linear and Non Linear data structures and implemented core data structures including Arrays, Linked List, Stacks, Queues, Trees and Treis for efficient problem solving.
+Solved handful of problems based on Sorting, Searching, and Recursion, improving Logical Thinking and Coding Efficiency.
+Developed ad project on sudoku solver , which takes input from user and give output in CLI .
+Tech: CPP and Basic DSA like 2D Arrays with Recursion.
+Achievements
+   5 stars in SQL and CPP on HackerRank 
+   Runner Up in Inter School Literary Championship – Rachna-A-LitFest  | LPU |  Certificate
+   4th Place in Hackathon (Code-e-Haunt)
+Certification
+   AWS Academy Graduate - Cloud Foundations | AWS | Certificate                                                                                          Apr’25
+   Oracle Certified Networking Professional | Oracle University | Certificate                                                                              Oct’ 25
+   Oracle Certified Generative AI Professional | Oracle University |   Certificate                                                                         Jan’ 26
+Certificates
+Responsive Web Design | Certificate                                                                                                                                        Jan’24            Social Networking -MOOC | NPTEL |Certificate                                                                                                                          Apr’25 Hacker Rank | Python  , SQL, JavaScript                                                                                                                                                        Dec’ 25
+Education
+Lovely Professional University     Phagwara, Punjab
+B.Tech. CSE; CGPA: 7.33   Aug’ 23 – Present
+Delhi Public School                Jammu, J&K
+Intermediate- PCM; Percentage: 81.8%   Mar’ 22 – May’ 23
+Delhi Public School                Jammu, J&K
+Matriculation; Percentage: 84.2%                                                                                                                               Mar’ 20 – May’ 21
