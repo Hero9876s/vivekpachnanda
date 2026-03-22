@@ -4,6 +4,7 @@
 :root {
     /* Color Palette - Dark Mode (Default) */
     --bg-color: #0c0e15;
+    --bg-image: linear-gradient(rgba(12, 14, 21, 0.85), rgba(12, 14, 21, 0.85)), url('../tech-cloud-bg-dark.png');
     --surface-color: #171a26;
     --surface-color-rgb: 23, 26, 38;
     --primary-color: #6366f1; /* Indigo */
@@ -32,6 +33,7 @@
 [data-theme="light"] {
     /* Color Palette - Light Mode */
     --bg-color: #f9f6f0; /* Elegant cream base */
+    --bg-image: linear-gradient(rgba(249, 246, 240, 0.85), rgba(249, 246, 240, 0.85)), url('../tech-cloud-bg-light.png');
     --surface-color: #ffffff;
     --surface-color-rgb: 255, 255, 255;
     --text-color: #1e293b;
@@ -60,6 +62,11 @@ html {
 body {
     font-family: var(--font-sans);
     background-color: var(--bg-color);
+    background-image: var(--bg-image);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
     color: var(--text-color);
     line-height: 1.6;
     transition: background-color var(--transition-normal), color var(--transition-normal);
